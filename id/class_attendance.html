@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>考勤</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="class_attendance_detail.html"});
+                $('#my-class').on('click',function(e){location.href="my_class.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li><span class="">我的考勤</span></li>
+        			        <li class="current" id="my-class"><span class="ui-reddot">班级考勤</span></li>
+        			        <li>课程考勤</li>
+        			    </ul>
+
+                        <div class="page-desc">
+                            <strong>一年级一班</strong><a class="btn" href="javascript:void(0)">切换班级</a>
+                        </div>
+
+                        <div class="mod-list">
+                            <div class="list-item status-normal">
+                                <div class="item-num color-grey">#1</div>
+                                <div class="item-text">
+                                    <strong>Literature</strong>
+                                    <p>4人缺勤, 有2人已反馈</p>
+                                    <p>2人迟到, 部分未反馈</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-warn-lg color-red"></i>
+                                </div>
+                            </div>
+                            <div class="list-item status-normal">
+                                <div class="item-num color-grey">#2</div>
+                                <div class="item-text">
+                                    <strong>Math</strong>
+                                    <p>4人缺勤, 有2人已反馈</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-warn-lg color-red"></i>
+                                </div>
+                            </div>
+                            <div class="list-item status-normal">
+                                <div class="item-num color-grey">#3</div>
+                                <div class="item-text">
+                                    <strong>Science</strong>
+                                    <p>没有考勤异常</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-emo color-green"></i>
+                                </div>
+                            </div>
+                            <div class="list-item status-normal">
+                                <div class="item-num color-grey">#4</div>
+                                <div class="item-text">
+                                    <strong>Math</strong>
+                                    <p>4人缺勤, 有2人已反馈</p>
+                                    <p>2人迟到, 部分未反馈</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-warn-lg color-red"></i>
+                                </div>
+                            </div>
+                        </div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+    </body>
+</html>

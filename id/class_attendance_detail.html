@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>考勤</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="attendance_detail.html"});
+                $('#my-class').on('click',function(e){location.href="my_class.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li><span class="">我的考勤</span></li>
+        			        <li class="current" id="my-class"><span class="ui-reddot">班级考勤</span></li>
+        			        <li>课程考勤</li>
+        			    </ul>
+
+                        <div class="page-desc">
+                            <strong>一年级一班</strong><a class="btn" href="javascript:void(0)">切换班级</a>
+                        </div>
+
+                        <div class="mod-list">
+                            <div class="list-item-mini status-normal">
+                                <div class="item-num color-grey">#1</div>
+                                <div class="item-text">
+                                    <strong>Literature</strong>
+                                    <p>上课时间:8:00 - 8:45</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-warn-lg color-red"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-sp">迟到4人</div>
+                        <ul class="ui-list ui-border-b">
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                    <p>家长反馈:送梅梅上学的路上遇到堵车，所以晚了，请老师见谅。</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                    <p>家长反馈:送梅梅上学的路上遇到堵车，所以晚了，请老师见谅。</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="title-sp">缺勤2人</div>
+                        <ul class="ui-list ui-border-b">
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                    <p>家长反馈:送梅梅上学的路上遇到堵车，所以晚了，请老师见谅。</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t">
+                                <div class="ui-avatar-s">
+                                    <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h5 class="ui-nowrap">学生姓名: Mary</h5>
+                                    <p>刷卡时间: 8:12 - 8:45</p>
+                                    <p>家长反馈:送梅梅上学的路上遇到堵车，所以晚了，请老师见谅。</p>
+                                </div>
+                            </li>
+                        </ul>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <div class="page-footer-placeholder"></div>
+    </body>
+</html>

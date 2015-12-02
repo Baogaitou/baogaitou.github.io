@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>考勤</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="attendance_detail.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li class="current"><span class="">我的考勤</span></li>
+        			        <li><span class="ui-reddot">班级考勤</span></li>
+        			        <li>课程考勤</li>
+        			    </ul>
+
+                        <div class="page-desc">
+                            <strong>2015/11/25</strong><a class="btn" href="javascript:void(0)">选择日期</a>
+                        </div>
+
+                        <div class="mod-list">
+                            <div class="list-item status-abnormal">
+                                <div class="item-num color-grey">#1</div>
+                                <div class="item-text">
+                                    <strong>Literature</strong>
+                                    <p>一年级一班</p>
+                                    <p>我的解释：</p>
+                                </div>
+                                <div class="item-status">
+                                    <em class="color-red">异常</em>
+                                    <i class="ui-icon-warn color-red"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-form-item ui-form-item-pure ui-border-t" style="height:100px">
+                            <textarea name="" style="height:100px"></textarea>
+                        </div>
+
+                        <div class="ui-btn-wrap ui-btn-group">
+                            <button class="ui-btn-lg">返回</button>
+                            <button class="ui-btn-lg ui-btn-primary">确定</button>
+                        </div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+    </body>
+</html>

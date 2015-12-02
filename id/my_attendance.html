@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>考勤</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="my_attendance_detail.html"});
+                $('#my-class').on('click',function(e){location.href="class_attendance.html"});
+                $('#my-lesson').on('click',function(e){location.href="lesson_attendance.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+    		<div class="ct-block">
+    			<div class="ui-tab">
+    			    <ul class="ui-tab-nav ui-border-b">
+    			        <li class="current"><span class="ui-reddot">我的考勤</span></li>
+    			        <li id="my-class"><span class="ui-reddot">班级考勤</span></li>
+    			        <li id="my-lesson">课程考勤</li>
+    			    </ul>
+
+                    <div class="page-desc">
+                        <input class="date-selector" type="date" value="2015/11/25" /><a class="btn" href="javascript:void(0)">选择日期</a> <!-- <input type="date" value="2011-01-04" /> <strong>2015/11/25</strong>-->
+                    </div>
+
+                    <div class="mod-list">
+                        <div class="list-item status-abnormal">
+                            <div class="item-num color-grey">#1</div>
+                            <div class="item-text">
+                                <strong>Literature</strong>
+                                <p>一年级一班</p>
+                                <p class="time">刷卡记录: 09:00 / 09:47</p>
+                            </div>
+                            <div class="item-status">
+                                <em class="color-red">异常</em>
+                                <i class="ui-icon-warn color-red"></i>
+                            </div>
+                        </div>
+                        <div class="list-item status-abnormal">
+                            <div class="item-num color-grey">#2</div>
+                            <div class="item-text">
+                                <strong>Math</strong>
+                                <p>一年级一班</p>
+                                <p class="time">刷卡记录: NONE</p>
+                            </div>
+                            <div class="item-status">
+                                <em class="color-red">异常</em>
+                                <i class="ui-icon-warn color-red"></i>
+                            </div>
+                        </div>
+                        <div class="list-item status-normal">
+                            <div class="item-num color-grey">#3</div>
+                            <div class="item-text">
+                                <strong>Science</strong>
+                                <p>一年级一班</p>
+                                <p class="time">刷卡记录: 09:00 / 09:47</p>
+                            </div>
+                            <div class="item-status">
+                                <i class="ui-icon-success color-green"></i>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-num color-grey">#4</div>
+                            <div class="item-text">
+                                <strong>Math</strong>
+                                <p>一年级一班</p>
+                                <p class="time">刷卡记录: 09:00</p>
+                            </div>
+                            <div class="item-status">
+                                <em class="color-grey">异常</em>
+                                <i class="ui-icon-order color-grey"></i>
+                            </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+        </section>
+        <div class="ui-footer ui-footer-stable ui-border-t" style="height:300px;display:none;">
+            <section class="ui-panel ui-panel-pure ui-border-t">
+                <h3>选择班级:</h3>
+                <ul class="ui-list ui-list-pure ui-border-tb" style="height:260px;overflow:hidden;">
+                    <li class="ui-border-t">这本书太赞了，每次看都有不一样的体会</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                    <li class="ui-border-t">这本书太赞了，每次看都有不一样的体会</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                    <li class="ui-border-t">这本书太赞了，每次看都有不一样的体会</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                    <li class="ui-border-t">标题标题标题标题标题标题题标题标</li>
+                </ul>
+            </section>
+        </div>
+    </body>
+</html>
