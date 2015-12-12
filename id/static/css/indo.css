@@ -113,7 +113,7 @@ a:link, a:hover, a:visited, a:active {text-decoration: none;}
 
 .page-desc{position:relative;padding: 15px 15px;font-size: 16px;color: #7CAE23;background:#F0F0F0;clear:both;height:46px;width:100%;}
 .page-desc .date-selector {position:absolute;top:15px;left:15px;}
-.page-desc .date-selector input {color:#FF6600;font-size:22px;background:none;padding:0px;border:1px solid #CCCCCC;width:160px;height:28px;display:block;}
+.page-desc .date-selector input {color:#FF6600;font-size:22px;background:none;padding:0px;border:0px solid #CCCCCC;width:180px;height:28px;display:block;}
 .page-desc .class-switcher {position:absolute;right:45px;top:15px;text-align:right;}
 .page-desc .class-switcher strong {display:block;font-size:18px;}
 
