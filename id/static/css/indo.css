@@ -57,7 +57,7 @@ a:link, a:hover, a:visited, a:active {text-decoration: none;}
 .ui-form-item {padding:10px 10px 0 10px;}
 .ui-form-item h4 {font-size:14px;font-weight:600;padding:0;line-height:30px}
 .ui-form-item textarea {border:1px solid #CCCCCC}
-
+.ui-form-item-pure textarea {padding:6px;}
 
 
 /* CUSTOME GLOBAL */
@@ -121,6 +121,7 @@ a:link, a:hover, a:visited, a:active {text-decoration: none;}
 .page-desc .class-switcher a {color:#FFFFFF;background:#999999;margin:2px 0 0 0px;border-radius:6px;font-size:11px;padding:3px 6px;}
 
 .title-sp {background:#F0F0F0;font-size:14px;padding:4px 16px;}
+
 
 
 
