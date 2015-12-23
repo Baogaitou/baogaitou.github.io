@@ -1,5 +1,5 @@
 /* RESET */
-* {-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+div,p {-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
 body{-webkit-user-select:initial;ackground-color: #fff;}
 body>a{display: none;}
 *{font-family:'helvetica neue','hiragino sans gb','stheiti','microsoft yahei',tahoma,sans-serif;font-size:16px;}
