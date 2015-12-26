@@ -22,6 +22,10 @@
     </head>
     <body ontouchstart>
         <section class="ui-container">
+            <div class="ui-poptips ui-poptips-success">
+                <div class="ui-poptips-cnt"><i></i>提交未成功！</div>
+            </div>
+
     		<div class="ct-block">
     			<div class="ui-tab">
     			    <ul class="ui-tab-nav ui-border-b">
@@ -91,7 +95,28 @@
     			</div>
     		</div>
         </section>
-        <div class="ui-footer ui-footer-stable ui-border-t" style="height:300px;display:block;">
+
+        <div class="ui-dialog">
+            <div class="ui-dialog-cnt">
+              <header class="ui-dialog-hd ui-border-b">
+                          <h3>提示消息</h3>
+                          <i class="ui-dialog-close" data-role="button"></i>
+                      </header>
+                <div class="ui-dialog-bd">
+                    <h4>请注意</h4>
+                    <div>某些字段是必须填写的！</div>
+                </div>
+                <div class="ui-dialog-ft">
+                    <button type="button" data-role="button">确定</button>
+                    <!-- <button type="button" data-role="button">取消</button> -->
+                </div>
+            </div>
+        </div>
+        <script class="demo-script">
+            $(".ui-dialog").dialog("show");
+        </script>
+
+        <div class="ui-footer ui-footer-stable ui-border-t" style="height:300px;display:none;">
             <section class="ui-panel ui-panel-pure ui-border-t">
                 <h3>选择班级:</h3>
                 <ul class="ui-list ui-list-pure ui-border-tb" style="height:260px;overflow:hidden;">
