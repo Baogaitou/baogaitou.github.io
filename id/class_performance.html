@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>成绩单</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="class_performance_summary.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block performance">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li><span class="">我发送的成绩单</span></li>
+        			    </ul>
+
+                        <div class="page-desc">
+                            <a href="#"><label class="ui-label ui-label-current">全部</label></a>
+                            <a href="#"><label class="ui-label">本周</label></a>
+                            <a href="#"><label class="ui-label">本月</label></a>
+                            <a href="#"><label class="ui-label">本学期</label></a>
+                            <a href="#"><label class="ui-label">更早</label></a>
+                        </div>
+
+                        <div class="mod-list">
+                            <div class="list-item status-normal">
+                                <div class="item-text">
+                                    <div>我是成绩单名称我是成绩</div>
+                                    <p>发送给：x年x班 / 2016-03-05</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-arrow color-grey"></i>
+                                </div>
+                            </div>
+                            <div class="list-item status-normal">
+                                <div class="item-text">
+                                    <div>我是成绩单名称我是成绩</div>
+                                    <p>发送给：x年x班 / 2016-03-05</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-arrow color-grey"></i>
+                                </div>
+                            </div>
+                            <div class="list-item status-normal">
+                                <div class="item-text">
+                                    <div>我是成绩单名称我是成绩</div>
+                                    <p>发送给：x年x班 / 2016-03-05</p>
+                                </div>
+                                <div class="item-status">
+                                    <i class="ui-icon-arrow color-grey"></i>
+                                </div>
+                            </div>
+                        </div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+    </body>
+</html>

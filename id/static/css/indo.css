@@ -76,6 +76,8 @@ a:link, a:hover, a:visited, a:active {text-decoration: none;}
 
 .page-footer-placeholder {height:100px;display:block;}
 
+.ui-label {background: #FFFFFF;color:#999999;font-size:14px;}
+.ui-label-current {background: #01A8FA;color:#FFFFFF;border-color:#2989E2}
 
 
 
@@ -127,7 +129,17 @@ a:link, a:hover, a:visited, a:active {text-decoration: none;}
 
 
 
+.performance .ui-table {margin-top:15px;}
+.performance .ui-table td,.performance .ui-table th {font-size:14px;padding:6px;text-align:left;}
+.performance .ui-table th {background-color:#EFEFEF}
+.performance .ui-table td {padding:6px 20px;}
 
+.performance .page-desc {height:24px;text-align:center;padding:15px 0;color:#666666;}
+.performance .list-item {height:72px;}
+.performance .list-item .item-text {padding:14px 20px;}
+.performance .list-item .item-status {width:50px;padding-top:20px;color:#999999;}
+.performance .ui-tiled div {font-size:14px;color:#000000;}
+.performance .ui-tiled i {font-size:24px;color:#d9534f;}
 
-
-
+.performance
+.performance

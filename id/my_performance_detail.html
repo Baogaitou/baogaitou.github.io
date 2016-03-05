@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>成绩单</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="class_performance_detail.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block performance">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li><span class="">成绩单</span></li>
+        			    </ul>
+                        <div class="page-desc" style="height:50px">
+                            <p>我是成绩单名称 (x年x班)</p>
+                            <h5>王老师发送于 2016年X月X日</h5>
+                        </div>
+
+                        <table class="ui-table ui-border">
+                            <thead>
+                            <tr><th colspan="2">王大毛的本次考试成绩</th></tr>
+                            </thead>
+                            <tbody>
+                            <tr><td>语文</td><td>100</td></tr>
+                            <tr><td>语文</td><td>100</td></tr>
+                            <tr><td>语文</td><td>100</td></tr>
+                            <tr><td>语文</td><td>100</td></tr>
+                            </tbody>
+                        </table>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+    </body>
+</html>
+
+
+

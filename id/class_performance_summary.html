@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>成绩单</title>
+        <link rel="stylesheet" href="static/css/frozen.css">
+        <link rel="stylesheet" href="static/css/indo.css">
+        <script src="static/lib/zepto.min.js"></script>
+        <script src="static/js/frozen.js"></script>
+        <script src="static/js/wt.js"></script>
+        <style>
+        </style>
+        <script type="text/javascript">
+            Zepto(function ($) {
+                $('.list-item').on('click',function(e){location.href="class_performance_detail.html"});
+            });
+        </script>
+    </head>
+    <body ontouchstart>
+        <section class="ui-container">
+        	<div class="">
+        		<div class="ct-block performance">
+        			<div class="ui-tab">
+        			    <ul class="ui-tab-nav ui-border-b">
+        			        <li><span class="">我是成绩单名称(x年x班)</span></li>
+        			    </ul>
+                        <div class="page-desc" style="height:50px">
+                            <ul class="ui-tiled">
+                                <li><div>最高分</div><i>100</i></li>
+                                <li><div>平均分</div><i>50</i></li>
+                                <li><div>最低分</div><i>30</i></li>
+                            </ul>
+                        </div>
+                        <div style="text-align:center;padding:15px 0">
+                            <a href="class_performance_detail.html">
+                                <label class="ui-label ui-label-current">查看明细</label>
+                            </a>
+                        </div>
+
+                        <table class="ui-table ui-border">
+                            <thead>
+                            <tr><th>最高分的 6 人</th></tr>
+                            </thead>
+                            <tbody>
+                            <tr><td>AAA:100</td></tr>
+                            <tr><td>AAA:100</td></tr>
+                            <tr><td>AAA:100</td></tr>
+                            </tbody>
+                        </table>
+
+                        <table class="ui-table ui-border">
+                            <thead>
+                            <tr><th>最低分的 6 人</th></tr>
+                            </thead>
+                            <tbody>
+                            <tr><td>AAA:100</td></tr>
+                            <tr><td>AAA:100</td></tr>
+                            <tr><td>AAA:100</td></tr>
+                            </tbody>
+                        </table>
+                        <table class="ui-table ui-border">
+                            <thead>
+                            <tr><th colspan="3">单科最高</th></tr>
+                            </thead>
+                            <tbody>
+                            <tr><td>科目</td><td>分数</td><td>姓名</td></tr>
+                            <tr><td>语文</td><td>100</td><td>章三</td></tr>
+                            </tbody>
+                        </table>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+    </body>
+</html>
+
+
+
